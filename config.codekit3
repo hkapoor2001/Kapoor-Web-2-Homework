@@ -93,6 +93,45 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/section-4\/herospot 2.png" : {
+      "ft" : 32768,
+      "iS" : 1617918,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/section-4\/herospot 2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/section-4\/herospot 4.png" : {
+      "ft" : 32768,
+      "iS" : 468462,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/section-4\/herospot 4.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/section-4\/herospot 5.png" : {
+      "ft" : 32768,
+      "iS" : 407178,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/section-4\/herospot 5.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -339,6 +378,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/section-3.html",
+      "oF" : 0
+    },
+    "\/dev\/section-4.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/section-4.html",
       "oF" : 0
     },
     "\/README.md" : {
