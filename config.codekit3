@@ -497,14 +497,6 @@
       "oAP" : "\/dev\/section-1.html",
       "oF" : 0
     },
-    "\/dev\/section-2" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/section-2",
-      "oF" : 0
-    },
     "\/dev\/section-2.kit" : {
       "cB" : 0,
       "ft" : 2048,
