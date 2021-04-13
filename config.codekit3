@@ -67,12 +67,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/section-3\/circle hero spot 1 optimized.jpg" : {
+    "\/deploy\/img\/section-3\/circle hero spot 1.jpg" : {
       "ft" : 16384,
       "iS" : 17299,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/section-3\/circle hero spot 1 optimized.jpg",
+      "oAP" : "\/deploy\/img\/section-3\/circle hero spot 1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -106,11 +106,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/section-4\/herospot 4.png" : {
+    "\/deploy\/img\/section-4\/herospot 3.png" : {
       "ft" : 32768,
       "iS" : 468462,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/section-4\/herospot 4.png",
+      "oAP" : "\/deploy\/img\/section-4\/herospot 3.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -119,11 +119,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/section-4\/herospot 5.png" : {
+    "\/deploy\/img\/section-4\/herospot 4.png" : {
       "ft" : 32768,
       "iS" : 407178,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/section-4\/herospot 5.png",
+      "oAP" : "\/deploy\/img\/section-4\/herospot 4.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
