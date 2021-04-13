@@ -34,6 +34,26 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/section-1\/Rectangle.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/section-1\/Rectangle.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/section-1\/Shape.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/section-1\/Shape.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
