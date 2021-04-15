@@ -127,12 +127,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/section-3\/circle hero spot 1.jpg" : {
+    "\/deploy\/img\/section-3\/circle_hero_spot_1.jpg" : {
       "ft" : 16384,
       "iS" : 17299,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/section-3\/circle hero spot 1.jpg",
+      "oAP" : "\/deploy\/img\/section-3\/circle_hero_spot_1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -140,11 +140,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/section-3\/circle herospot 2.png" : {
+    "\/deploy\/img\/section-3\/circle_herospot_2.png" : {
       "ft" : 32768,
       "iS" : 22345,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/section-3\/circle herospot 2.png",
+      "oAP" : "\/deploy\/img\/section-3\/circle_herospot_2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -192,11 +192,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/section-5\/herospot 5.png" : {
+    "\/deploy\/img\/section-5\/herospot_5.png" : {
       "ft" : 32768,
       "iS" : 85410,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/section-5\/herospot 5.png",
+      "oAP" : "\/deploy\/img\/section-5\/herospot_5.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -205,11 +205,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/section-5\/herospot 6.png" : {
+    "\/deploy\/img\/section-5\/herospot_6.png" : {
       "ft" : 32768,
       "iS" : 118293,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/section-5\/herospot 6.png",
+      "oAP" : "\/deploy\/img\/section-5\/herospot_6.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -218,11 +218,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/section-5\/herospot 7.png" : {
+    "\/deploy\/img\/section-5\/herospot_7.png" : {
       "ft" : 32768,
       "iS" : 118202,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/section-5\/herospot 7.png",
+      "oAP" : "\/deploy\/img\/section-5\/herospot_7.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -231,11 +231,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/section-5\/herospot 8.png" : {
+    "\/deploy\/img\/section-5\/herospot_8.png" : {
       "ft" : 32768,
       "iS" : 103660,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/section-5\/herospot 8.png",
+      "oAP" : "\/deploy\/img\/section-5\/herospot_8.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -244,11 +244,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/section-5\/herospot 9.png" : {
+    "\/deploy\/img\/section-5\/herospot_9.png" : {
       "ft" : 32768,
       "iS" : 131207,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/section-5\/herospot 9.png",
+      "oAP" : "\/deploy\/img\/section-5\/herospot_9.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
