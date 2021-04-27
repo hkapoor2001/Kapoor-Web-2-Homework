@@ -284,44 +284,44 @@
       "oAP" : "\/design\/Kapoor_Homework_4:8:21.sketch",
       "oF" : 0
     },
-    "\/dev\/content\/section-1.kit" : {
+    "\/dev\/content\/Buttons.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/section-1.html",
+      "oAP" : "\/dev\/content\/Buttons.html",
       "oF" : 0
     },
-    "\/dev\/content\/section-2.kit" : {
+    "\/dev\/content\/Cake-Pastries-Croissant.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/section-2.html",
+      "oAP" : "\/dev\/content\/Cake-Pastries-Croissant.html",
       "oF" : 0
     },
-    "\/dev\/content\/section-3.kit" : {
+    "\/dev\/content\/Menu.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/section-3.html",
+      "oAP" : "\/dev\/content\/Menu.html",
       "oF" : 0
     },
-    "\/dev\/content\/section-4.kit" : {
+    "\/dev\/content\/Pastries-Herospot.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/section-4.html",
+      "oAP" : "\/dev\/content\/Pastries-Herospot.html",
       "oF" : 0
     },
-    "\/dev\/content\/section-5.kit" : {
+    "\/dev\/content\/Searchbar.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/section-5.html",
+      "oAP" : "\/dev\/content\/Searchbar.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
@@ -547,6 +547,14 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/Searchbar." : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Searchbar.",
+      "oF" : 0
     }
   },
   "hooks" : [
