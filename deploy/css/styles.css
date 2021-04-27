@@ -383,11 +383,6 @@ textarea {
 /* =============
     Navigation
 ============= */
-a {
-  text-decoration: none;
-  transition: 0.25s;
-}
-
 /* =============
     Header
 ============= */
