@@ -423,6 +423,11 @@ textarea {
 /* =============
     header
 ============= */
+#header {
+  display: grid;
+  grid-row: 1;
+  max-width: 100%;
+}
 #header #Butter {
   font-family: "Cinzel", serif;
 }
