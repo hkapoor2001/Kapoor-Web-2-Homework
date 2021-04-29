@@ -1,0 +1,14 @@
+/* =============
+    Pastries-Herospot
+============= */
+#Pastries-Herospot{
+    img{
+        max-width: 100%;
+    }
+    ul{
+        display: grid;
+        grid-template-rows: 2;
+        width: 100%;
+        height: 118px;
+    }
+}
