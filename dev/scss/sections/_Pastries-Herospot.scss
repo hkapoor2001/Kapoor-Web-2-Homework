@@ -1,14 +1,13 @@
 /* =============
     Pastries-Herospot
 ============= */
-#Pastries-Herospot{
-    img{
-        max-width: 100%;
-    }
-    ul{
-        display: grid;
-        grid-template-rows: 2;
-        width: 100%;
-        height: 118px;
-    }
+.Pastries-Herospot {
+    display: grid;
+    grid-column: 4;
+    grid-row: 4;
+    grid-template-columns: 80px 80px 80px 80px;
+    grid-template-rows: 30px 30px 30px 30px;
+}
+.Pastrieshero{
+max-width: 100%;
 }
