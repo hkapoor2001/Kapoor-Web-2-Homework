@@ -352,7 +352,7 @@ template {
 /* =============
     Base
 ============= */
-p, ul, h1, h2, h3, h4, h5, h6 {
+p, ul, h2, h3, h4, h5, h6 {
   font-family: "Fauna One", serif;
 }
 
@@ -418,4 +418,11 @@ textarea {
   grid-template-rows: 2;
   padding: 16px;
   width: 100%;
+}
+
+/* =============
+    header
+============= */
+#header #Butter {
+  font-family: "Cinzel", serif;
 }
