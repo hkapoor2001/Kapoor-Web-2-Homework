@@ -559,10 +559,7 @@ textarea {
 /* =============
     Menu
 ============= */
-#Menu ul {
-  max-width: 100%;
-}
-#Menu ul img {
+#Menu li #cakehero {
   max-width: 100%;
 }
 
@@ -597,6 +594,6 @@ textarea {
 /* =============
     footer
 ============= */
-.footericons li {
+#footericons li {
   display: inline;
 }
