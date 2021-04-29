@@ -559,7 +559,19 @@ textarea {
 /* =============
     Menu
 ============= */
-#Menu li #cakehero {
+#Menu li #cakemenu {
+  max-width: 100%;
+}
+#Menu li #pastrymenu {
+  max-width: 100%;
+}
+#Menu li #breadmenu {
+  max-width: 100%;
+}
+#Menu li #donutmenu {
+  max-width: 100%;
+}
+#Menu li #icecreammenu {
   max-width: 100%;
 }
 
