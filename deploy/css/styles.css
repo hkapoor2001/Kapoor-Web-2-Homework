@@ -421,6 +421,22 @@ textarea {
 }
 
 /* =============
+    Menu
+============= */
+/* =============
+    Searchbar
+============= */
+/* =============
+    Cake-Pastries-Croissant.scss
+============= */
+#Cake ul {
+  max-width: 100%;
+}
+#Cake ul img {
+  max-width: 100%;
+}
+
+/* =============
     header
 ============= */
 #header {
