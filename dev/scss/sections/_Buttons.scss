@@ -1,150 +1,148 @@
 /* =============
     Buttons
 ============= */
-.cater {
+#cater {
     display: grid;
     grid-column: 4;
     grid-row: 4;
-    grid-template-columns: 80px 80px 80px 80px;
-    grid-template-rows: 30px 30px 30px 30px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
 }
 
-.herocater{
+#herocater{
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 1;
 }
 
-.buttoncater {
+#buttoncater {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 4;
 }
 
-.textcater { grid-column: 1 / 3;
+#textcater { grid-column: 1 / 3;
     grid-row: 2 / 4;}
 
-    .cater {
+    #cater {
         display: grid;
         grid-column: 4;
         grid-row: 4;
-        grid-template-columns: 80px 80px 80px 80px;
-        grid-template-rows: 30px 30px 30px 30px;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 25% 25% 25% 25%;
     }
     
-    .herocater{
+    #herocater{
         grid-column-start: 3;
         grid-column-end: 4;
         grid-row-start: 1;
         grid-row-end: 1;
     }
     
-    .buttoncater {
+    #buttoncater {
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 2;
         grid-row-end: 4;
     }
     
-    .textcater { grid-column: 1 / 3;
+    #textcater { grid-column: 1 / 3;
         grid-row: 2 / 4;}
 
- .online {
+ #online {
             display: grid;
             grid-column: 4;
             grid-row: 4;
-            grid-template-columns: 80px 80px 80px 80px;
-            grid-template-rows: 30px 30px 30px 30px;
+            grid-template-columns: 25% 25% 25% 25%;
+            grid-template-rows: 25% 25% 25% 25%;
         }
         
-        .herocater{
+        #herocater{
             grid-column-start: 3;
             grid-column-end: 4;
             grid-row-start: 1;
             grid-row-end: 1;
         }
         
-        .buttoncater {
+        #buttoncater {
             grid-column-start: 1;
             grid-column-end: 3;
             grid-row-start: 2;
             grid-row-end: 4;
         }
-            .online {
+            #online {
                 display: grid;
                 grid-column: 4;
                 grid-row: 4;
-                grid-template-columns: 80px 80px 80px 80px;
-                grid-template-rows: 30px 30px 30px 30px;
+                grid-template-columns: 25% 25% 25% 25%;
+                grid-template-rows: 25% 25% 25% 25%;
             }
             
-            .heroonline{
+            #heroonline{
                 grid-column-start: 3;
                 grid-column-end: 4;
                 grid-row-start: 1;
                 grid-row-end: 1;
             }
             
-            .buttononline {
-                grid-column-start: 1;
-                grid-column-end: 3;
-                grid-row-start: 2;
-                grid-row-end: 4;
-            }
             
-            .textonline { grid-column: 1 / 3;
-                grid-row: 2 / 4;}
+            #textonline {
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 1;
+                grid-row-end: 2;
+            }
 
 
-                .online {
+                #online {
                     display: grid;
                     grid-column: 4;
                     grid-row: 4;
-                    grid-template-columns: 80px 80px 80px 80px;
-                    grid-template-rows: 30px 30px 30px 30px;
+                    grid-template-columns: 25% 25% 25% 25%;
+                    grid-template-rows: 25% 25% 25% 25%;
                 }
                 
-                .heroonline{
+                #heroonline{
                     grid-column-start: 3;
                     grid-column-end: 4;
                     grid-row-start: 1;
                     grid-row-end: 1;
                 }
                 
-                .buttononline {
+                #buttononline {
                     grid-column-start: 1;
-                    grid-column-end: 3;
-                    grid-row-start: 2;
+                    grid-column-end: 2;
+                    grid-row-start: 3;
                     grid-row-end: 4;
                 }
-                
-                .textcater { grid-column: 1 / 3;
-                    grid-row: 2 / 4;}
-                
-                    .cater {
+             
+                    #cater {
                         display: grid;
                         grid-column: 4;
                         grid-row: 4;
-                        grid-template-columns: 80px 80px 80px 80px;
-                        grid-template-rows: 30px 30px 30px 30px;
+                        grid-template-columns: 25% 25% 25% 25%;
+                        grid-template-rows: 25% 25% 25% 25%;
                     }
                     
-                    .herocater{
+                    #herocater{
                         grid-column-start: 3;
                         grid-column-end: 4;
                         grid-row-start: 1;
                         grid-row-end: 1;
                     }
                     
-                    .buttoncater {
+                    #buttoncater {
                         grid-column-start: 1;
-                        grid-column-end: 3;
-                        grid-row-start: 2;
+                        grid-column-end: 2;
+                        grid-row-start: 3;
                         grid-row-end: 4;
                     }
                     
-                    .textcater { grid-column: 1 / 3;
-                        grid-row: 2 / 4;}
-        
+                    #textcater {
+                        grid-column-start: 1;
+                        grid-column-end: 2;
+                        grid-row-start: 1;
+                        grid-row-end: 2;
+                    }
