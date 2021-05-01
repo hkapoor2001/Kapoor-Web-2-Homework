@@ -2,23 +2,45 @@
     Menu
 ============= */
 #Menu{
-    #menudiv{
-        li{
-            #cakemenu{
-             max-width: 100%;
+    div{
+        ul{
+            display: grid;
+            gap: 16px;
+            li{
+                #cakemenu {
+                    >div {
+                        background-image:url("../img/section-5/herospot_5.png") ;
+                    }
+                }
             }
-            #pastrymenu{
-             max-width: 100%;
+            li{
+                #pastriesmenu {
+                    >div {
+                        background-image:url(img src="img/section-5/herospot_6.png") ;
+                    }
+                }
             }
-            #breadmenu{
-             max-width: 100%;
+            li{
+                #breadmenu {
+                    >div {
+                        background-image:url(img src="img/section-5/herospot_6.png") ;
+                    }
+                }
             }
-            #donutmenu{
-             max-width: 100%;
+            li{
+                #donutsmenu {
+                    >div {
+                        background-image:url(img src="img/section-5/herospot_6.png") ;
+                    }
+                }
             }
-            #icecreammenu{
-             max-width: 100%;
+            li{
+                #icecreamsmenu {
+                    >div {
+                        background-image:url(img src="img/section-5/herospot_6.png") ;
+                    }
+                }
             }
-         }
     }
-    }
+}
+}

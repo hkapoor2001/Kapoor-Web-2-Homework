@@ -4,9 +4,11 @@
 #Searchbar{
 form{
     display: grid;
-    grid-column: 2;
-    grid-template-areas: 
-    "Search bar"
-    "Search button";
+    grid-template-areas: ". Searchbar .";
+    grid-template-columns: 16px auto 16px;
+
+    >div{
+        grid-area: search;
+    }
 }
 }

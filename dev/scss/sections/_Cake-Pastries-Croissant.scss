@@ -2,9 +2,11 @@
     Cake-Pastries-Croissant.scss
 ============= */
 #Cake{
-    display: grid;
-    grid-template-areas: 
-    "cakehero"
-    "croissanthero"
-    "pastriesstackhero";
+   > div{
+      ul {
+          li{
+              
+          }
+      }
+   }
 }

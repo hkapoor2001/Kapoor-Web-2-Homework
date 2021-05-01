@@ -400,7 +400,7 @@ textarea {
 /* =============
     Pastries-Herospot
 ============= */
-#Pastries-Herospot img {
+#Pastries-Herospot > div img {
   max-width: 100%;
 }
 
@@ -559,20 +559,24 @@ textarea {
 /* =============
     Menu
 ============= */
-#Menu #menudiv li #cakemenu {
-  max-width: 100%;
+#Menu div ul {
+  display: grid;
+  gap: 16px;
 }
-#Menu #menudiv li #pastrymenu {
-  max-width: 100%;
+#Menu div ul li #cakemenu > div {
+  background-image: url("../img/section-5/herospot_5.png");
 }
-#Menu #menudiv li #breadmenu {
-  max-width: 100%;
+#Menu div ul li #pastriesmenu > div {
+  background-image: url(img src="img/section-5/herospot_6.png");
 }
-#Menu #menudiv li #donutmenu {
-  max-width: 100%;
+#Menu div ul li #breadmenu > div {
+  background-image: url(img src="img/section-5/herospot_6.png");
 }
-#Menu #menudiv li #icecreammenu {
-  max-width: 100%;
+#Menu div ul li #donutsmenu > div {
+  background-image: url(img src="img/section-5/herospot_6.png");
+}
+#Menu div ul li #icecreamsmenu > div {
+  background-image: url(img src="img/section-5/herospot_6.png");
 }
 
 /* =============
@@ -580,18 +584,16 @@ textarea {
 ============= */
 #Searchbar form {
   display: grid;
-  grid-column: 2;
-  grid-template-areas: "Search bar" "Search button";
+  grid-template-areas: ". Searchbar .";
+  grid-template-columns: 16px auto 16px;
+}
+#Searchbar form > div {
+  grid-area: search;
 }
 
 /* =============
     Cake-Pastries-Croissant.scss
 ============= */
-#Cake {
-  display: grid;
-  grid-template-areas: "cakehero" "croissanthero" "pastriesstackhero";
-}
-
 /* =============
     header
 ============= */
