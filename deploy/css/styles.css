@@ -559,19 +559,19 @@ textarea {
 /* =============
     Menu
 ============= */
-#Menu li #cakemenu {
+#Menu #menudiv li #cakemenu {
   max-width: 100%;
 }
-#Menu li #pastrymenu {
+#Menu #menudiv li #pastrymenu {
   max-width: 100%;
 }
-#Menu li #breadmenu {
+#Menu #menudiv li #breadmenu {
   max-width: 100%;
 }
-#Menu li #donutmenu {
+#Menu #menudiv li #donutmenu {
   max-width: 100%;
 }
-#Menu li #icecreammenu {
+#Menu #menudiv li #icecreammenu {
   max-width: 100%;
 }
 
@@ -587,8 +587,9 @@ textarea {
 /* =============
     Cake-Pastries-Croissant.scss
 ============= */
-#Cake img {
-  max-width: 100%;
+#Cake {
+  display: grid;
+  grid-template-areas: "cakehero" "croissanthero" "pastriesstackhero";
 }
 
 /* =============

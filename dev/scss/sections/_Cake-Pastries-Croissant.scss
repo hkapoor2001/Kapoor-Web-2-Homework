@@ -1,9 +1,10 @@
 /* =============
     Cake-Pastries-Croissant.scss
 ============= */
-
-#Cake {
-    img{
-        max-width: 100%;
-    }
+#Cake{
+    display: grid;
+    grid-template-areas: 
+    "cakehero"
+    "croissanthero"
+    "pastriesstackhero";
 }
