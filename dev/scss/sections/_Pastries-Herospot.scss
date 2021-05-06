@@ -2,9 +2,51 @@
     Pastries-Herospot
 ============= */
 #Pastries-Herospot {
-    >div{
+    display: grid;
+    grid-template-areas: 
+    "pastrieshero pastrieshero"
+    "hero-item" "hero-item-2";
+
+    #pastrieshero{
         img{
-            max-width: 100%;
+            display: block;
+            width: 100%;
+        }
+        #location {
+            list-style-type: none;
+            margin: 0px;
+            padding: 240px;
         }
     }
+
+    #hero-item{
+        background-color: #5A373B;
+    
+        a{
+            color: #FFFFFF
+        }
+        h2 {
+            margin: 0px;
+            padding: 0px;
+        }
+    }
+    #hero-item-2{
+        background-color: #FA7583;
+    
+        a{
+            color: #FFFFFF
+        }
+        h2 {
+            margin: 0px;
+            padding: 0px;
+        }
+    }
+    @include md{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: 
+        "pastrieshero pastrieshero"
+        "hero-item" "hero-item-2";
+    }
+            
 }

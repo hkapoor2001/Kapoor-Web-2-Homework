@@ -1,12 +1,58 @@
 /* =============
-    Cake-Pastries-Croissant.scss
+    Cake-Pastries-Croissant
 ============= */
-#Cake{
-   > div{
-      ul {
-          li{
-              
-          }
-      }
-   }
+#hero-2 {
+	display: grid;
+    grid-template-areas: 
+    "cakehero"
+	"crossainthero";
+	
+	>div {
+
+
+		ul {
+			
+
+			li {
+				background-position: center;
+				background-size: cover;
+				height: 320px;
+
+				
+			}
+
+			#cakehero {
+				background-image: url("../img/section-4/herospot_2.png");
+
+				
+			}
+
+			#croissanthero {
+				background-image: url("../img/section-4/herospot_3.png");
+
+				
+			}
+
+			#pastriesstackhero {
+				background-image: url("../img/section-4/herospot_4.png");
+				display: none;
+
+				
+			}
+		}
+	}
+
+@include md {
+	display: grid;
+	grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "cakehero crossainthero";
+}
+@include lg {
+	display: grid;
+    grid-template-areas: 
+    "cakehero crossainthero";
+	grid-template-columns: 60% 40%;
+}
+	
 }

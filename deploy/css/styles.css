@@ -358,7 +358,7 @@ p, ul, h2, h3, h4, h5, h6 {
 
 ul {
   margin: 0;
-  padding: 20px;
+  padding: 0;
 }
 ul li {
   list-style: none;
@@ -400,160 +400,70 @@ textarea {
 /* =============
     Pastries-Herospot
 ============= */
-#Pastries-Herospot > div img {
-  max-width: 100%;
+#Pastries-Herospot {
+  display: grid;
+  grid-template-areas: "pastrieshero pastrieshero" "hero-item" "hero-item-2";
+}
+#Pastries-Herospot #pastrieshero img {
+  display: block;
+  width: 100%;
+}
+#Pastries-Herospot #pastrieshero #location {
+  list-style-type: none;
+  margin: 0px;
+  padding: 240px;
+}
+#Pastries-Herospot #hero-item {
+  background-color: #5A373B;
+}
+#Pastries-Herospot #hero-item a {
+  color: #FFFFFF;
+}
+#Pastries-Herospot #hero-item h2 {
+  margin: 0px;
+  padding: 0px;
+}
+#Pastries-Herospot #hero-item-2 {
+  background-color: #FA7583;
+}
+#Pastries-Herospot #hero-item-2 a {
+  color: #FFFFFF;
+}
+#Pastries-Herospot #hero-item-2 h2 {
+  margin: 0px;
+  padding: 0px;
+}
+@media (min-width: 768px) {
+  #Pastries-Herospot {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "pastrieshero pastrieshero" "hero-item" "hero-item-2";
+  }
 }
 
 /* =============
     Buttons
 ============= */
-#cater {
+#Buttons > div ul {
   display: grid;
-  grid-column: 4;
-  grid-row: 4;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 25% 25% 25% 25%;
+  gap: 16px;
 }
-
-#herocater {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 1;
+#Buttons > div li aside {
+  margin-left: auto;
 }
-
-#buttoncater {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 4;
+#Buttons > div li aside div {
+  background-position: center;
+  background-size: cover;
+  border: 4px #fff solid;
+  border-radius: 100%;
+  height: 85px;
+  width: 85px;
 }
-
-#textcater {
-  grid-column: 1/3;
-  grid-row: 2/4;
-}
-
-#cater {
-  display: grid;
-  grid-column: 4;
-  grid-row: 4;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 25% 25% 25% 25%;
-}
-
-#herocater {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 1;
-}
-
-#buttoncater {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 4;
-}
-
-#textcater {
-  grid-column: 1/3;
-  grid-row: 2/4;
-}
-
-#online {
-  display: grid;
-  grid-column: 4;
-  grid-row: 4;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 25% 25% 25% 25%;
-}
-
-#herocater {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 1;
-}
-
-#buttoncater {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 4;
-}
-
-#online {
-  display: grid;
-  grid-column: 4;
-  grid-row: 4;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 25% 25% 25% 25%;
-}
-
-#heroonline {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 1;
-}
-
-#textonline {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-#online {
-  display: grid;
-  grid-column: 4;
-  grid-row: 4;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 25% 25% 25% 25%;
-}
-
-#heroonline {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 1;
-}
-
-#buttononline {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 3;
-  grid-row-end: 4;
-}
-
-#cater {
-  display: grid;
-  grid-column: 4;
-  grid-row: 4;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 25% 25% 25% 25%;
-}
-
-#herocater {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 1;
-}
-
-#buttoncater {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 3;
-  grid-row-end: 4;
-}
-
-#textcater {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
+@media (min-width: 768px) {
+  #Buttons > div li aside div {
+    height: 113px;
+    width: 113px;
+  }
 }
 
 /* =============
@@ -564,19 +474,19 @@ textarea {
   gap: 16px;
 }
 #Menu div ul li #cakemenu > div {
-  background-image: url(img src="img/section-5/herospot_5.png");
+  background-image: url("..img/section-5/herospot_5.png");
 }
 #Menu div ul li #pastriesmenu > div {
-  background-image: url("img/section-5/herospot_6.png");
+  background-image: url("..img/section-5/herospot_6.png");
 }
 #Menu div ul li #breadmenu > div {
-  background-image: url(img src="img/section-5/herospot_7.png");
+  background-image: url("..img/section-5/herospot_7.png");
 }
 #Menu div ul li #donutsmenu > div {
-  background-image: url(img src="img/section-5/herospot_8.png");
+  background-image: url("..img/section-5/herospot_8.png");
 }
 #Menu div ul li #icecreamsmenu > div {
-  background-image: url(img src="img/section-5/herospot_9.png");
+  background-image: url("..img/section-5/herospot_9.png");
 }
 
 /* =============
@@ -592,8 +502,42 @@ textarea {
 }
 
 /* =============
-    Cake-Pastries-Croissant.scss
+    Cake-Pastries-Croissant
 ============= */
+#hero-2 {
+  display: grid;
+  grid-template-areas: "cakehero" "crossainthero";
+}
+#hero-2 > div ul li {
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+}
+#hero-2 > div ul #cakehero {
+  background-image: url("../img/section-4/herospot_2.png");
+}
+#hero-2 > div ul #croissanthero {
+  background-image: url("../img/section-4/herospot_3.png");
+}
+#hero-2 > div ul #pastriesstackhero {
+  background-image: url("../img/section-4/herospot_4.png");
+  display: none;
+}
+@media (min-width: 768px) {
+  #hero-2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "cakehero crossainthero";
+  }
+}
+@media (min-width: 1024px) {
+  #hero-2 {
+    display: grid;
+    grid-template-areas: "cakehero crossainthero";
+    grid-template-columns: 60% 40%;
+  }
+}
+
 /* =============
     header
 ============= */
