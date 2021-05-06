@@ -1,8 +1,24 @@
 /* =============
     footer
 ============= */
-#footericons{
-li{
-    display: inline;
+#footer{
+    display: grid;
+    grid-template-areas: 
+    "locationsheader"
+    "locations"
+    "NewsletterSignup"
+    "footericons"
+    ;
+    #footericons{
+        li{
+            display: inline;
+        }
+        }
+        @include md{
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            grid-template-areas:
+            "locationsheader Newsletter signup"
+            "locations Newsletter signup";
 }
 }

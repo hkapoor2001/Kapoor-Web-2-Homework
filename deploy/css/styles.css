@@ -440,6 +440,12 @@ textarea {
     grid-template-areas: "pastrieshero pastrieshero" "hero-item" "hero-item-2";
   }
 }
+@media (min-width: 768px) {
+  #Pastries-Herospot {
+    display: grid;
+    grid-template-areas: "cakemenu pastriesmenu " "breadmenu donutsmenu" "icecreamsmenu";
+  }
+}
 
 /* =============
     Buttons
@@ -488,6 +494,18 @@ textarea {
 #Menu div ul li #icecreamsmenu > div {
   background-image: url("..img/section-5/herospot_9.png");
 }
+@media (min-width: 1024px) {
+  #Menu {
+    display: grid;
+    grid-template-areas: "16px cakemenu pastriesmenu breadmenu 16px" "182px donutsmenu icecreamsmenu 182px";
+  }
+}
+@media (min-width: 768px) {
+  #Menu {
+    display: grid;
+    grid-template-areas: "cakemenu pastriesmenu " "breadmenu donutsmenu" "icecreamsmenu";
+  }
+}
 
 /* =============
     Searchbar
@@ -526,7 +544,6 @@ textarea {
 @media (min-width: 768px) {
   #hero-2 {
     display: grid;
-    grid-template-columns: 50% 50%;
     grid-template-areas: "cakehero crossainthero";
   }
 }
@@ -553,6 +570,17 @@ textarea {
 /* =============
     footer
 ============= */
-#footericons li {
+#footer {
+  display: grid;
+  grid-template-areas: "locationsheader" "locations" "NewsletterSignup" "footericons";
+}
+#footer #footericons li {
   display: inline;
+}
+@media (min-width: 768px) {
+  #footer {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-areas: "locationsheader Newsletter signup" "locations Newsletter signup";
+  }
 }

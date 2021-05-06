@@ -48,5 +48,14 @@
         "pastrieshero pastrieshero"
         "hero-item" "hero-item-2";
     }
-            
+
+    @include md{
+        display: grid;
+    grid-template-areas: 
+    "cakemenu pastriesmenu "
+    "breadmenu donutsmenu"
+    "icecreamsmenu"
+           
+}
+
 }

@@ -44,4 +44,19 @@
             }
     }
 }
+
+@include lg{
+    display: grid;
+grid-template-areas: 
+"16px cakemenu pastriesmenu breadmenu 16px"
+"182px donutsmenu icecreamsmenu 182px";
+}
+
+@include md{
+    display: grid;
+grid-template-areas: 
+"cakemenu pastriesmenu "
+"breadmenu donutsmenu"
+"icecreamsmenu"
+}
 }
