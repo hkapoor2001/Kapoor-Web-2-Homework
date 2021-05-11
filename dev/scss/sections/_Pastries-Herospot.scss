@@ -1,43 +1,61 @@
 /* =============
     Pastries-Herospot
 ============= */
-#hero {
-    img{
-        width: 100%;
+#Pastries-Herospot {
+    display: grid;
+    grid-template-areas: 
+    "pastrieshero pastrieshero"
+    "hero-item" "hero-item-2";
+
+    #pastrieshero{
+        img{
+            display: block;
+            width: 100%;
+        }
+        #location {
+            list-style-type: none;
+            margin: 0px;
+            padding: 240px;
+        }
     }
-    #caption-1 {
-       background-color: #5A373B;
-       color: white;
-       padding-bottom: 24px;
-       margin-bottom: 24px;
+
+    #hero-item{
+        background-color: #5A373B;
+    
+        a{
+            color: #FFFFFF
+        }
+        h2 {
+            margin: 0px;
+            padding: 0px;
+        }
     }
-    #caption-2 {
+    #hero-item-2{
         background-color: #FA7583;
-        color: white;
-        padding-bottom: 24px;
-        margin-bottom: 24px;
-     }
-     
-
-    section{
-        @include md{
-            display: grid;
-            grid-template-columns: 16px auto 16px;
-            grid-template-areas: ". hero-content .";
+    
+        a{
+            color: #FFFFFF
+        }
+        h2 {
+            margin: 0px;
+            padding: 0px;
         }
     }
-    ul{
-        @include md{
-            grid-area: hero-content;
-            display: grid;
-            grid-template-columns: 40% auto;
-        }
+    @include md{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: 
+        "pastrieshero pastrieshero"
+        "hero-item" "hero-item-2";
     }
 
-    @include lg{
-        grid-template-columns: 50% auto;
-    }
-
-
+    @include md{
+        display: grid;
+    grid-template-areas: 
+    "cakemenu pastriesmenu "
+    "breadmenu donutsmenu"
+    "icecreamsmenu"
+           
+}
 
 }
