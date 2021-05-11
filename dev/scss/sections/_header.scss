@@ -1,11 +1,13 @@
 /* =============
     header
 ============= */
-.header {
+#header {
+    display: grid;
+    grid-template-areas: 
+    "Logo Butter"
+    "Logo Fresh";
+background-color: #5A373B;
 .Butter{
     font-family: 'Cinzel', serif;
 }
-display: grid;
-grid-row: 1;
-max-width: 100%;
 }

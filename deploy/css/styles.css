@@ -364,6 +364,16 @@ ul li {
   list-style: none;
 }
 
+button {
+  background-color: #E4273B;
+  color: white;
+  border-radius: 100 px;
+}
+
+a {
+  color: whitesmoke;
+}
+
 /* =============
     Typography
 ============= */
@@ -400,170 +410,258 @@ textarea {
 /* =============
     Pastries-Herospot
 ============= */
-#Pastries-Herospot {
-  display: grid;
-  grid-template-areas: "pastrieshero pastrieshero" "hero-item" "hero-item-2";
-}
-#Pastries-Herospot #pastrieshero img {
-  display: block;
+#hero img {
   width: 100%;
 }
-#Pastries-Herospot #pastrieshero #location {
-  list-style-type: none;
-  margin: 0px;
-  padding: 240px;
-}
-#Pastries-Herospot #hero-item {
+#hero #caption-1 {
   background-color: #5A373B;
+  color: white;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
 }
-#Pastries-Herospot #hero-item a {
-  color: #FFFFFF;
-}
-#Pastries-Herospot #hero-item h2 {
-  margin: 0px;
-  padding: 0px;
-}
-#Pastries-Herospot #hero-item-2 {
+#hero #caption-2 {
   background-color: #FA7583;
-}
-#Pastries-Herospot #hero-item-2 a {
-  color: #FFFFFF;
-}
-#Pastries-Herospot #hero-item-2 h2 {
-  margin: 0px;
-  padding: 0px;
+  color: white;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
 }
 @media (min-width: 768px) {
-  #Pastries-Herospot {
+  #hero section {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-areas: "pastrieshero pastrieshero" "hero-item" "hero-item-2";
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". hero-content .";
   }
 }
 @media (min-width: 768px) {
-  #Pastries-Herospot {
+  #hero ul {
+    grid-area: hero-content;
     display: grid;
-    grid-template-areas: "cakemenu pastriesmenu " "breadmenu donutsmenu" "icecreamsmenu";
+    grid-template-columns: 40% auto;
+  }
+}
+@media (min-width: 1024px) {
+  #hero {
+    grid-template-columns: 50% auto;
   }
 }
 
 /* =============
     Buttons
 ============= */
-#Buttons > div ul {
+#Buttons {
   display: grid;
-  gap: 16px;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". Buttons .";
 }
-#Buttons > div li aside {
-  margin-left: auto;
+#Buttons #Cater {
+  display: grid;
+  grid-template-areas: ". C1 C2 ." ". C3 C2 .";
+  padding: 16px;
+  padding-bottom: 50px;
+  background-color: #FF9595;
+  padding-bottom: 56px;
+  margin-bottom: 56px;
 }
-#Buttons > div li aside div {
-  background-position: center;
-  background-size: cover;
-  border: 4px #fff solid;
-  border-radius: 100%;
-  height: 85px;
-  width: 85px;
+#Buttons #Cater #circlehero1 {
+  border: white 10px;
+}
+#Buttons #Pickup {
+  display: grid;
+  grid-template-areas: ". P1 P2 ." ". P3 P2 .";
+  padding: 16px;
+  background-color: #FF9595;
+  padding-bottom: 56px;
+  margin-bottom: 56px;
+}
+#Buttons #Pickup #circlehero1 {
+  border: white 2px;
+}
+@media (min-width: 1200px) {
+  #Buttons {
+    grid-template-columns: auto 1000px auto;
+  }
+}
+#Buttons > div {
+  grid-area: Buttons;
 }
 @media (min-width: 768px) {
-  #Buttons > div li aside div {
-    height: 113px;
-    width: 113px;
+  #Buttons > div ul {
+    display: grid;
+    grid-template-columns: 50% auto;
+    gap: 16px;
   }
 }
 
 /* =============
     Menu
 ============= */
-#Menu div ul {
-  display: grid;
-  gap: 16px;
-}
-#Menu div ul li #cakemenu > div {
-  background-image: url("..img/section-5/herospot_5.png");
-}
-#Menu div ul li #pastriesmenu > div {
-  background-image: url("..img/section-5/herospot_6.png");
-}
-#Menu div ul li #breadmenu > div {
-  background-image: url("..img/section-5/herospot_7.png");
-}
-#Menu div ul li #donutsmenu > div {
-  background-image: url("..img/section-5/herospot_8.png");
-}
-#Menu div ul li #icecreamsmenu > div {
-  background-image: url("..img/section-5/herospot_9.png");
-}
-@media (min-width: 1024px) {
-  #Menu {
-    display: grid;
-    grid-template-areas: "16px cakemenu pastriesmenu breadmenu 16px" "182px donutsmenu icecreamsmenu 182px";
-  }
-}
 @media (min-width: 768px) {
   #Menu {
     display: grid;
-    grid-template-areas: "cakemenu pastriesmenu " "breadmenu donutsmenu" "icecreamsmenu";
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". new .";
+  }
+}
+@media (min-width: 1024px) {
+  #Menu {
+    grid-template-columns: auto 1024px auto;
+  }
+}
+@media (min-width: 768px) {
+  #Menu > div {
+    grid-area: new;
+  }
+}
+@media (min-width: 768px) {
+  #Menu > div ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "m1 m1 m2 m2" "m3 m3 m4 m4" ". m5 m5 .";
+    gap: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  #Menu > div ul {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "m1 m1 m2 m2 m3 m3" ". m4 m4 m5 m5 .";
+  }
+}
+#Menu > div ul li img {
+  width: 100%;
+}
+#Menu > div ul li section {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". new-content .";
+}
+#Menu > div ul li section > div {
+  grid-area: new-content;
+}
+#Menu > div ul #m1 {
+  background-color: #FA7583;
+}
+@media (min-width: 768px) {
+  #Menu > div ul #m1 {
+    grid-area: m1;
+  }
+}
+#Menu > div ul #m2 {
+  background-color: #FA7583;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-left: 18px;
+}
+@media (min-width: 768px) {
+  #Menu > div ul #m2 {
+    grid-area: m2;
+  }
+}
+#Menu > div ul #m3 {
+  background-color: #FA7583;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-left: 18px;
+}
+@media (min-width: 768px) {
+  #Menu > div ul #m3 {
+    grid-area: m3;
+  }
+}
+#Menu > div ul #m4 {
+  background-color: #FA7583;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-left: 18px;
+}
+@media (min-width: 768px) {
+  #Menu > div ul #m4 {
+    grid-area: m4;
+  }
+}
+#Menu > div ul #m5 {
+  background-color: #FA7583;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-left: 18px;
+}
+@media (min-width: 768px) {
+  #Menu > div ul #m5 {
+    grid-area: n5;
   }
 }
 
 /* =============
     Searchbar
 ============= */
-#Searchbar form {
+#Searchbar {
   display: grid;
-  grid-template-areas: ". Searchbar .";
   grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". search .";
 }
-#Searchbar form > div {
+#Searchbar > div {
   grid-area: search;
+}
+@media (min-width: 1200px) {
+  #Searchbar > div {
+    display: grid;
+    grid-template-columns: auto 1200px auto;
+    grid-template-areas: ". Searchbar-content .";
+  }
+}
+#Searchbar > div form include xl {
+  grid-area: search-content;
 }
 
 /* =============
     Cake-Pastries-Croissant
 ============= */
-#hero-2 {
-  display: grid;
-  grid-template-areas: "cakehero" "crossainthero";
-}
-#hero-2 > div ul li {
-  background-position: center;
-  background-size: cover;
-  height: 320px;
-}
-#hero-2 > div ul #cakehero {
-  background-image: url("../img/section-4/herospot_2.png");
-}
-#hero-2 > div ul #croissanthero {
-  background-image: url("../img/section-4/herospot_3.png");
-}
-#hero-2 > div ul #pastriesstackhero {
-  background-image: url("../img/section-4/herospot_4.png");
-  display: none;
+@media (min-width: 1350px) {
+  #hero-2 {
+    display: grid;
+    grid-template-columns: auto 1350px auto;
+    grid-template-areas: ". hero-2 .";
+  }
 }
 @media (min-width: 768px) {
-  #hero-2 {
+  #hero-2 ul {
     display: grid;
-    grid-template-areas: "cakehero crossainthero";
+    grid-template-columns: 50% auto;
   }
 }
-@media (min-width: 1024px) {
-  #hero-2 {
-    display: grid;
-    grid-template-areas: "cakehero crossainthero";
-    grid-template-columns: 60% 40%;
+@media (min-width: 1200px) {
+  #hero-2 ul {
+    grid-template-columns: 70% auto;
+    grid-template-areas: "h2-1 h2-1" "h2-1 h2-3";
   }
+}
+@media (min-width: 1350px) {
+  #hero-2 ul {
+    grid-area: hero-2;
+  }
+}
+#hero-2 ul li img {
+  width: 100%;
+}
+#hero-2 ul #cakehero {
+  background-image: url("../img/section-4/herospot_2.png");
+}
+#hero-2 ul #croissanthero {
+  background-image: url("../img/section-4/herospot_3.png");
+}
+#hero-2 ul #pastriesstackhero {
+  background-image: url("../img/section-4/herospot_4.png");
+  display: none;
 }
 
 /* =============
     header
 ============= */
-.header {
+#header {
   display: grid;
-  grid-row: 1;
-  max-width: 100%;
+  grid-template-areas: "Logo Butter" "Logo Fresh";
+  background-color: #5A373B;
 }
-.header .Butter {
+#header .Butter {
   font-family: "Cinzel", serif;
 }
 
@@ -573,6 +671,8 @@ textarea {
 #footer {
   display: grid;
   grid-template-areas: "locationsheader" "locations" "NewsletterSignup" "footericons";
+  background-color: #5A373B;
+  color: white;
 }
 #footer #footericons li {
   display: inline;
@@ -580,7 +680,14 @@ textarea {
 @media (min-width: 768px) {
   #footer {
     display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "locationsheader Newsletter signup" "locations Newsletter signup" "locations footericons";
+  }
+}
+@media (min-width: 1024px) {
+  #footer {
+    display: grid;
     grid-template-columns: 33% 33% 33%;
-    grid-template-areas: "locationsheader Newsletter signup" "locations Newsletter signup";
+    grid-template-areas: "locationsheader Newsletter signup footericons" "locations Newsletter signup footericons";
   }
 }
